@@ -973,6 +973,113 @@ ul, ol {
         flex: 0 0 calc(50% - 0.5rem);
     }
 }
+/* Mobile View Corrections */
+@media (max-width: 767px) {
+    /* Adjust container padding for mobile */
+    .container {
+        padding: 0 1rem;
+    }
+    
+    /* Fix carousel container margins */
+    .carousel-container {
+        margin-left: 0;
+        padding: 0 1rem;
+    }
+    
+    /* Adjust thumbnail scroll buttons for mobile */
+    .thumbnail-scroll-btn {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .thumbnail-scroll-btn.prev {
+        left: 5px;
+    }
+    
+    .thumbnail-scroll-btn.next {
+        right: 5px;
+    }
+    
+    /* Center carousel navigation buttons */
+    .carousel-btn {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .carousel-btn.prev {
+        left: 5px;
+    }
+    
+    .carousel-btn.next {
+        right: 5px;
+    }
+    
+    /* Ensure product gallery is properly centered */
+    .main-image-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    /* Adjust product actions for mobile */
+    .product-actions {
+        flex-wrap: wrap;
+    }
+    
+    .quantity-selector {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .add-to-cart-btn {
+        order: 2;
+        width: calc(100% - 52px);
+    }
+    
+    .wishlist-btn {
+        order: 3;
+    }
+    
+    /* Fix modal positioning on mobile */
+    .modal-content {
+        width: 95%;
+    }
+    
+    /* Adjust product bundle padding */
+    .product-bundle {
+        padding: 1.5rem;
+    }
+}
+
+/* Additional fixes for very small screens */
+@media (max-width: 400px) {
+    /* Make variant buttons smaller */
+    .size-btn {
+        min-width: 32px;
+        height: 32px;
+        font-size: 0.75rem;
+    }
+    
+    /* Adjust product action buttons */
+    .add-to-cart-btn {
+        font-size: 0.875rem;
+    }
+    
+    /* Fix header spacing */
+    .header-container {
+        padding: 0.5rem;
+    }
+    
+    .main-header {
+        padding: 0.75rem;
+    }
+    
+    /* Ensure thumbnails don't get too small */
+    .thumbnail {
+        flex: 0 0 calc(25% - 0.5rem);
+    }
+}
 
 @media (min-width: 768px) {
     .carousel-item {
