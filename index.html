@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Ribbed Sweater | Xasion.</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=apparel" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-slider">
+            <div class="announcement-slide active">
+                <p>FREE SHIPPING<br>On all orders over $100</p>
+            </div>
+            <div class="announcement-slide">
+                <p>HASSLE-FREE RETURNS<br>30-day postage paid returns</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram"><span class="icon-instagram"></span></a>
+                <a href="#" aria-label="Facebook"><span class="icon-facebook"></span></a>
+                <a href="#" aria-label="Pinterest"><span class="icon-pinterest"></span></a>
+            </div>
+            <div class="currency-selector">
+                <button class="currency-button">
+                    <img src="data:image/png;base64,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" alt="India flag" width="20" height="15">
+                    <span>India (INR ₹)</span>
+                    <span class="icon-chevron-down"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="logo">
+                <span class="material-symbols-outlined">
+apparel
+</span>
+                <span class="material-symbols-outlined">
+                   asion
+                </span>
+                
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li class="has-dropdown">
+                        <a href="#">Shop <span class="icon-chevron-down"></span></a>
+                    </li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Shop by Brand <span class="icon-chevron-down"></span></a>
+                    </li>
+                    <li><a href="#">Theme Features</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="search-toggle" aria-label="Search">
+                    <span class="icon-search"></span>
+                </button>
+                <a href="/cart" class="cart-link" aria-label="Cart">
+                    <span class="icon-cart"></span>
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="/">Home</a> / 
+                <a href="/collections/knitwear">Knitwear</a> / 
+                <span>Premium Ribbed Sweater</span>
+            </div>
+
+            <div class="product-container">
+                <!-- Product Gallery -->
+                <div class="product-gallery">
+                    <div class="main-image-container">
+                        <img id="main-product-image" src="https://street9.com/cdn/shop/products/SWT00005165_1_900x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige" class="main-image">
+                        <div class="image-zoom-lens"></div>
+                    </div>
+                    <div class="thumbnails-container">
+                        <button class="thumbnail-scroll-btn prev" aria-label="Previous image">
+                            <span class="icon-chevron-left"></span>
+                        </button>
+                        <div class="thumbnails-wrapper">
+                            <div class="thumbnails">
+                                <button class="thumbnail active" data-image="https://street9.com/cdn/shop/products/SWT00005165_1_900x.jpg?v=1746623630">
+                                    <img src="https://street9.com/cdn/shop/products/SWT00005165_1_900x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige - Front View">
+                                </button>
+                                <button class="thumbnail" data-image="https://street9.com/cdn/shop/products/SWT00005165_2_900x.jpg?v=1746623630">
+                                    <img src="https://street9.com/cdn/shop/products/SWT00005165_2_900x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige - Side View">
+                                </button>
+                                <button class="thumbnail" data-image="https://street9.com/cdn/shop/products/SWT00005165_3_180x.jpg?v=1746623630">
+                                    <img src="https://street9.com/cdn/shop/products/SWT00005165_3_180x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige - Back View">
+                                </button>
+                                <button class="thumbnail" data-image="https://street9.com/cdn/shop/products/SWT00005165_5_900x.jpg?v=1746623630">
+                                    <img src="https://street9.com/cdn/shop/products/SWT00005165_5_900x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige - Detail View">
+                                </button>
+                                <button class="thumbnail" data-image="https://street9.com/cdn/shop/products/SWT00005165_6_900x.jpg?v=1746623630">
+                                    <img src="https://street9.com/cdn/shop/products/SWT00005165_6_900x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige - Model View">
+                                </button>
+                            </div>
+                        </div>
+                        <button class="thumbnail-scroll-btn next" aria-label="Next image">
+                            <span class="icon-chevron-right"></span>
+                        </button>
+                    </div>
+                </div>
+                    
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="product-info">
+                    <h1 class="product-title">Premium Ribbed Sweater</h1>
+                    <div class="product-price">
+                        <span class="current-price">₹4,995.00</span>
+                        <span class="original-price">₹5,995.00</span>
+                        <span class="discount-badge">Save 17%</span>
+                    </div>
+                    
+                    <div class="product-rating">
+                        <div class="stars">
+                            <span class="icon-star filled"></span>
+                            <span class="icon-star filled"></span>
+                            <span class="icon-star filled"></span>
+                            <span class="icon-star filled"></span>
+                            <span class="icon-star half-filled"></span>
+                        </div>
+                        <a href="#reviews" class="review-count">42 reviews</a>
+                    </div>
+
+                    <div class="product-variants">
+                        <div class="variant-group">
+                            <label for="color-select">Color: <span class="selected-variant">Beige</span></label>
+                            <div class="color-options">
+                                <button class="color-swatch active" data-color="Beige" style="background-color: #e8d9c5;" aria-label="Beige">
+                                    
+                                </button>
+                                <button class="color-swatch " data-color="Mustard" style="background-color: #F5C73C;" aria-label="Mustard"></button>
+                                <button class="color-swatch" data-color="Green" style="background-color: #12BE62;" aria-label="Green"></button>
+                                <button class="color-swatch" data-color="Blue" style="background-color: #37428A;" aria-label="Blue"></button>
+                                <button class="color-swatch" data-color="Skin" style="background-color: #FDC19A;" aria-label="Skin"></button>
+                                
+                            </div>
+                            <button id="compare-colors-btn" class="text-button">Compare Colours</button>
+                        </div>
+
+                        <div class="variant-group">
+                            <label for="size-select">Size: <span class="selected-variant">M</span></label>
+                            <div class="size-options">
+                                <button class="size-btn" data-size="XS">XS</button>
+                                <button class="size-btn" data-size="S">S</button>
+                                <button class="size-btn active" data-size="M">M</button>
+                                <button class="size-btn" data-size="L">L</button>
+                                <button class="size-btn" data-size="XL">XL</button>
+                            </div>
+                            <button id="size-chart-btn" class="text-button">Size Chart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <button class="quantity-btn decrease" aria-label="Decrease quantity">-</button>
+                            <input type="number" id="quantity" value="1" min="1" max="10" aria-label="Quantity">
+                            <button class="quantity-btn increase" aria-label="Increase quantity">+</button>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to Wishlist">
+                            <span class="icon-heart"></span>
+                        </button>
+                    </div>
+
+                    <div class="product-delivery">
+                        <div class="delivery-option">
+                            <span class="icon-truck"></span>
+                            <div>
+                                <p>Free Shipping</p>
+                                <small>On orders over ₹7,500</small>
+                            </div>
+                        </div>
+                        <div class="delivery-option">
+                            <span class="icon-return"></span>
+                            <div>
+                                <p>Free Returns</p>
+                                <small>30-day postage paid returns</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Tabs -->
+                    <div class="product-tabs">
+                        <div class="tabs-header">
+                            <button class="tab-btn active" data-tab="description">Description</button>
+                            <button class="tab-btn" data-tab="product-info">Product Info</button>
+                            <button class="tab-btn" data-tab="shipping">Shipping</button>
+                        </div>
+                        <div class="tabs-content">
+                            <div class="tab-panel active" id="description">
+                                <p>Our classic Premium Ribbed Sweater is crafted from 100% organic cotton for ultimate comfort and durability. The ribbed texture adds a sophisticated touch to this versatile piece that can be dressed up or down for any occasion.</p>
+                                <p>This season, we've introduced six new colors to our collection, ensuring there's a perfect match for every wardrobe.</p>
+                                <ul>
+                                    <li>100% organic cotton</li>
+                                    <li>Medium weight (350 GSM)</li>
+                                    <li>Ribbed texture</li>
+                                    <li>Relaxed fit</li>
+                                    <li>Machine washable</li>
+                                </ul>
+                            </div>
+                            <div class="tab-panel" id="product-info">
+                                <h4>Materials</h4>
+                                <p>100% GOTS certified organic cotton, sourced from sustainable farms.</p>
+                                
+                                <h4>Care Instructions</h4>
+                                <p>Machine wash cold with similar colors. Tumble dry low. Do not bleach. Warm iron if needed.</p>
+                                
+                                <h4>Sizing</h4>
+                                <p>This sweater has a relaxed fit. For a more fitted look, we recommend sizing down.</p>
+                            </div>
+                            <div class="tab-panel" id="shipping">
+                                <h4>Delivery Options</h4>
+                                <p>Standard Shipping (3-5 business days): Free on orders over ₹7,500<br>
+                                Express Shipping (1-2 business days): ₹750</p>
+                                
+                                <h4>International Shipping</h4>
+                                <p>We ship to over 50 countries worldwide. International shipping rates are calculated at checkout.</p>
+                                
+                                <h4>Returns</h4>
+                                <p>We offer hassle-free returns within 30 days of delivery. Return shipping is free for customers in India.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bundle Suggestion -->
+            <section class="product-bundle">
+                <h2 class="section-title">Buy These Together</h2>
+                <div class="bundle-container">
+                    <div class="bundle-products">
+                        <div class="bundle-product main-product">
+                            <div class="bundle-product-image">
+                                <img src="https://street9.com/cdn/shop/products/SWT00005155_1_900x.jpg?v=1746623633" alt="Premium Ribbed Sweater">
+                            </div>
+                            <div class="bundle-product-info">
+                                <h3>Premium Ribbed Sweater</h3>
+                                <p class="bundle-product-price">₹4,995.00</p>
+                            </div>
+                        </div>
+                        <div class="bundle-plus">+</div>
+                        <div class="bundle-product">
+                            <div class="bundle-product-image">
+                                <img src="https://i.pinimg.com/736x/d5/a8/24/d5a82441c0d2165acaa7c38a411b5d6b.jpg" alt="Wool Blend Scarf">
+                            </div>
+                            <div class="bundle-product-info">
+                                <h3>Wool Blend Scarf</h3>
+                                <p class="bundle-product-price">₹1,995.00</p>
+                            </div>
+                        </div>
+                        <div class="bundle-plus">+</div>
+                        <div class="bundle-product">
+                            <div class="bundle-product-image">
+                                <img src="https://i.pinimg.com/736x/52/e8/e1/52e8e117014b4b0e2bdd1310af3df557.jpg" alt="Chunky Knit Beanie">
+                            </div>
+                            <div class="bundle-product-info">
+                                <h3>Chunky Knit Beanie</h3>
+                                <p class="bundle-product-price">₹1,295.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bundle-summary">
+                        <div class="bundle-total">
+                            <p>Bundle Price: <span class="bundle-total-price">₹7,495.00</span></p>
+                            <p class="bundle-savings">You Save: <span>₹1,790.00</span></p>
+                        </div>
+                        <button class="bundle-add-btn">Add Bundle to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pair Well With Section -->
+            <section class="pair-well-with">
+                <h2 class="section-title">Pair Well With</h2>
+                <div class="carousel-container">
+                    <button class="carousel-btn prev" aria-label="Previous items">
+                        <span class="icon-chevron-left"></span>
+                    </button>
+                    <div class="carousel-wrapper">
+                        <div class="carousel-items">
+                            <div class="carousel-item">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <img src="https://i.pinimg.com/736x/5b/ff/eb/5bffeb5635b6a039a94be063bd4a0fe3.jpg" alt="Slim Fit Jeans">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <h3>Slim Fit Jeans</h3>
+                                        <p class="product-card-price">₹3,495.00</p>
+                                        <button class="quick-add-btn">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <img src="https://i.pinimg.com/736x/13/59/7b/13597bc455e967a7d3e5e8c99e40b677.jpg" alt="Leather Ankle Boots">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <h3>Leather Ankle Boots</h3>
+                                        <p class="product-card-price">₹5,995.00</p>
+                                        <button class="quick-add-btn">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <img src="https://i.pinimg.com/736x/24/97/c0/2497c0cdf02c3b8a1c4303faa3f7ca36.jpg" alt="Canvas Tote Bag">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <h3>Canvas Tote Bag</h3>
+                                        <p class="product-card-price">₹2,495.00</p>
+                                        <button class="quick-add-btn">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <img src="https://i.pinimg.com/736x/3a/08/4d/3a084dc69c944ed3a49d48d08c7c2c38.jpg" alt="Denim Jacket">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <h3>Denim Jacket</h3>
+                                        <p class="product-card-price">₹4,995.00</p>
+                                        <button class="quick-add-btn">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="product-card">
+                                    <div class="product-card-image">
+                                        <img src="https://i.pinimg.com/736x/d0/d4/ac/d0d4acbb15d43e00fe31d67d1475be9c.jpg" alt="Gold Hoop Earrings">
+                                    </div>
+                                    <div class="product-card-info">
+                                        <h3>Gold Hoop Earrings</h3>
+                                        <p class="product-card-price">₹1,995.00</p>
+                                        <button class="quick-add-btn">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next" aria-label="Next items">
+                        <span class="icon-chevron-right"></span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Related Products -->
+            <section class="related-products">
+                <h2 class="section-title">You May Also Like</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="product-badge new">New</span>
+                            <img src="https://i.pinimg.com/736x/59/fd/39/59fd39ac7acffa55befcc892d1b131fc.jpg" alt="Oversized Cardigan">
+                        </div>
+                        <div class="product-card-info">
+                            <h3>Oversized Cardigan</h3>
+                            <p class="product-card-price">₹4,495.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="product-badge bestseller">Bestseller</span>
+                            <img src="https://i.pinimg.com/736x/c0/a0/ef/c0a0ef73209e3017ca422fc9c798ddb5.jpg" alt="Merino Turtleneck">
+                        </div>
+                        <div class="product-card-info">
+                            <h3>Merino Turtleneck</h3>
+                            <p class="product-card-price">₹3,995.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="https://i.pinimg.com/736x/35/80/20/358020e9aae510d39fe0060b0ece5041.jpg" alt="Knitted Vest">
+                        </div>
+                        <div class="product-card-info">
+                            <h3>Knitted Vest</h3>
+                            <p class="product-card-price">₹2,995.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <span class="product-badge sale">Sale</span>
+                            <img src="https://i.pinimg.com/736x/b6/f2/1f/b6f21f7e135b54a81ed5aea75bfd5f7f.jpg" alt="Cashmere Blend Hoodie">
+                        </div>
+                        <div class="product-card-info">
+                            <h3>Cashmere Blend Hoodie</h3>
+                            <p class="product-card-price">
+                                <span class="sale-price">₹5,495.00</span>
+                                <span class="original-price">₹6,995.00</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3 class="footer-title">SHOP</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Apparel</a></li>
+                            <li><a href="#">Outerwear</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Homegoods</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-title">BRANDS</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Muttonhead</a></li>
+                            <li><a href="#">Naked and Famous</a></li>
+                            <li><a href="#">Juniper Ridge</a></li>
+                            <li><a href="#">Bather</a></li>
+                            <li><a href="#">Beside</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-title">ABOUT</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Theme Features</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column newsletter">
+                        <h3 class="footer-title">SIGN UP & SAVE 15%</h3>
+                        <p>Be the first to know about our biggest and best sales. We'll never send more than one email a month.</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email" required>
+                                <button type="submit" aria-label="Subscribe">
+                                    <span class="icon-arrow-right"></span>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram"><span class="icon-instagram"></span></a>
+                            <a href="#" aria-label="Facebook"><span class="icon-facebook"></span></a>
+                            <a href="#" aria-label="Pinterest"><span class="icon-pinterest"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="currency-selector">
+                    <button class="currency-button">
+                        <img src="assets/flag-india.png" alt="India flag" width="20" height="15">
+                        <span>India (INR ₹)</span>
+                        <span class="icon-chevron-down"></span>
+                    </button>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 A.P.L. All rights reserved.</p>
+                </div>
+                <div class="powered-by">
+                    <p>Powered by Shopify</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Size Chart Modal -->
+    <div id="size-chart-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Size Chart</h3>
+                <button class="modal-close" aria-label="Close modal">
+                    <span class="icon-close"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="size-chart-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Chest (cm)</th>
+                            <th>Length (cm)</th>
+                            <th>Sleeve (cm)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>XS</td>
+                            <td>86-91</td>
+                            <td>64</td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>91-97</td>
+                            <td>66</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>97-102</td>
+                            <td>68</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>102-107</td>
+                            <td>70</td>
+                            <td>62</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>107-112</td>
+                            <td>72</td>
+                            <td>63</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="size-guide-notes">
+                    <h4>How to Measure</h4>
+                    <p><strong>Chest:</strong> Measure around the fullest part of your chest, keeping the tape horizontal.</p>
+                    <p><strong>Length:</strong> Measure from the highest point of the shoulder to the bottom hem.</p>
+                    <p><strong>Sleeve:</strong> Measure from the shoulder seam to the end of the sleeve.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compare Colors Modal -->
+    <div id="compare-colors-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Compare Colours</h3>
+                <button class="modal-close" aria-label="Close modal">
+                    <span class="icon-close"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="color-comparison">
+                    <div class="color-comparison-header">
+                        <p>Select colours to compare (up to 3)</p>
+                    </div>
+                    <div class="color-selection">
+                        <div class="color-option">
+                            <input type="checkbox" id="color-beige" value="Beige" checked>
+                            <label for="color-beige">
+                                <span class="color-swatch" style="background-color: #e8d9c5;"></span>
+                                <span class="color-name">Beige</span>
+                            </label>
+                        </div>
+                        <div class="color-option">
+                            <input type="checkbox" id="color-mustard" value="Mustard">
+                            <label for="color-mustard">
+                                <span class="color-swatch" style="background-color: #F5C73C;"></span>
+                                <span class="color-name">Mustard</span>
+                            </label>
+                        </div>
+                        <div class="color-option">
+                            <input type="checkbox" id="color-green" value="Green">
+                            <label for="color-green">
+                                <span class="color-swatch" style="background-color: #12BE62;"></span>
+                                <span class="color-name">Green</span>
+                            </label>
+                        </div>
+                        <div class="color-option">
+                            <input type="checkbox" id="color-blue" value="Blue">
+                            <label for="color-blue">
+                                <span class="color-swatch" style="background-color: #37428A;"></span>
+                                <span class="color-name">Blue</span>
+                            </label>
+                        </div>
+                        <div class="color-option">
+                            <input type="checkbox" id="color-skin" value="Skin">
+                            <label for="color-skin">
+                                <span class="color-swatch" style="background-color: #FDC19A;"></span>
+                                <span class="color-name">Skin</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="color-comparison-display">
+                        <div class="comparison-item active" data-color="Beige">
+                            <div class="comparison-image">
+                                <img src="https://street9.com/cdn/shop/products/SWT00005165_1_900x.jpg?v=1746623630" alt="Premium Ribbed Sweater in Beige">
+                            </div>
+                            <div class="comparison-info">
+                                <h4>Beige</h4>
+                                <p>A warm neutral that pairs well with both light and dark colors.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-item" data-color="Mustard" style="display: none;">
+                            <div class="comparison-image">
+                                <img src="https://street9.com/cdn/shop/products/SWT00005155_1_900x.jpg?v=1746623633" alt="Premium Ribbed Sweater in Grey">
+                            </div>
+                            <div class="comparison-info">
+                                <h4>Mustard</h4>
+                                <p>A warm, golden yellow that adds a pop of color to any outfit.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-item" data-color="Green" style="display: none;">
+                            <div class="comparison-image">
+                                <img src="https://street9.com/cdn/shop/products/SWT00005154_3_900x.jpg?v=1746623634" alt="Premium Ribbed Sweater in Black">
+                            </div>
+                            <div class="comparison-info">
+                                <h4>Green</h4>
+                                <p>A timeless classic that never goes out of style.</p>
+                            </div>
+                        </div>
+                        <div class="comparison-item" data-color="Blue" style="display: none;">
+                            <div class="comparison-image">
+                                <img src="https://street9.com/cdn/shop/products/SWT00007246_1_900x.jpg?v=1746621777" alt="Premium Ribbed Sweater in Burgundy">
+                            </div>
+                            <div class="comparison-info">
+                                <h4>Blue</h4>
+                                <p>A deep, calming shade that adds a touch of sophistication</p>
+                            </div>
+                        </div>
+                        <div class="comparison-item" data-color="Skin" style="display: none;">
+                            <div class="comparison-image">
+                                <img src="https://street9.com/cdn/shop/products/SWT00005166_3_900x.jpg?v=1746623629" alt="Premium Ribbed Sweater in Mustard">
+                            </div>
+                            <div class="comparison-info">
+                                <h4>Skin</h4>
+                                <p>A soft, warm tone that adds a subtle elegance to any outfit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zoom Image Modal -->
+    <div id="zoom-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content zoom-modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <span class="icon-close"></span>
+            </button>
+            <div class="zoom-container">
+                <img id="zoom-image" src="/placeholder.svg" alt="Zoomed product image">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
