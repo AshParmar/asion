@@ -525,10 +525,15 @@ ul, ol {
 }
 
 .text-button {
-    font-size: 0.75rem;
+    display: inline-flex;
+    align-items: center; 
+    gap: 0.5rem;
+    font-size: 0.8rem; 
     color: var(--color-secondary);
     text-decoration: underline;
-    margin-top: 0.5rem;
+    border: none; 
+    background: none; 
+    cursor: pointer; 
     transition: color 0.2s ease;
 }
 
@@ -552,6 +557,16 @@ ul, ol {
     border-radius: var(--radius-sm);
     font-size: 0.875rem;
     transition: all 0.2s ease;
+}
+#size-chart-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .size-btn:hover {
