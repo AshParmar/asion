@@ -1,4 +1,4 @@
-# Xasion Product Page
+# Asion Product Page
 
 A fully responsive and interactive e-commerce product page built with **vanilla HTML, CSS, and JavaScript**, inspired by modern Shopify storefronts.
 
