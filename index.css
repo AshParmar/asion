@@ -309,18 +309,29 @@ ul, ol {
     margin-bottom: 4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 150px) {
+    
     .product-container {
         flex-direction: row;
     }
     
     .product-gallery {
         flex: 1;
+        flex-direction: column;
+        align-items: center;
     }
     
     .product-info {
         flex: 1;
         padding-left: 2rem;
+    }
+    .thumbnail {
+        width: 50px; /* Reduce thumbnail size for mobile */
+        height: 50px;
+    }
+
+    .main-image {
+        max-width: 100%; /* Ensure the main image is responsive */
     }
 }
 
@@ -422,7 +433,7 @@ ul, ol {
 
 /* Product Info */
 .product-info{
-    padding: 1rem;
+    margin-left: px;
 }
 .product-title {
     font-size: 1.5rem;
